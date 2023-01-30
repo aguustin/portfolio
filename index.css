@@ -1,0 +1,148 @@
+* {
+    font-weight: 600;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.principal-desc {
+    font-size: 21px;
+}
+
+.computadora-img img {
+    height: 280px;
+}
+
+.perfil img {
+    height: 155px;
+    border-radius: 50%;
+}
+
+.img-proyectos {
+    height: 150px;
+}
+
+.img-proyectos:hover {
+    opacity: 0.5;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.cards-container {
+    background-color: rgb(231, 231, 231);
+}
+
+.cards {
+    width: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.html,
+.css,
+.javascript,
+.react,
+.firebase,
+.postman,
+.bootstrap,
+.node,
+.mongodb,
+.php,
+.mysql {
+    text-align: center;
+    margin: 5px;
+    width: 90px;
+    color: white;
+    border-radius: 5px;
+}
+
+.html {
+    background-color: red;
+}
+
+.css {
+    background-color: rgb(29, 29, 216);
+}
+
+.bootstrap {
+    background-color: rgb(110, 36, 180);
+}
+
+.php {
+    background-color: rgb(65, 1, 126);
+}
+
+.mysql {
+    background-color: rgb(102, 102, 175);
+}
+
+.javascript {
+    background-color: rgb(245, 245, 96);
+}
+
+.react {
+    background-color: rgb(102, 102, 255);
+}
+
+.firebase {
+    background-color: rgb(214, 214, 0);
+}
+
+.postman {
+    background-color: orange;
+}
+
+.node {
+    background-color: green;
+}
+
+.mongodb {
+    background-color: rgb(4, 209, 4);
+}
+
+.img-git,
+.cards-btn {
+    margin-top: 10px;
+}
+
+.img-git {
+    width: 50px;
+}
+
+.cards-btn {
+    border-radius: 30px;
+    position: relative;
+    bottom: .1rem;
+    left: 13rem;
+    right: 1rem;
+}
+
+.only-card-calc {
+    margin-top: 35px;
+}
+
+.contacto-img img {
+    height: 320px;
+}
+
+.foo {
+    padding: 15px;
+}
+
+.form-contacto img {
+    height: 25px;
+    margin-left: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 550px) {
+    .contacto-img {
+        text-align: center;
+    }
+
+}
